@@ -23,7 +23,8 @@
       * There a not a great deal of employees in the pipeline in comparison to those that are retiring. For example there are 24,926 Senior Staff that will be retiring
         soon and we have only identified 155 for the mentorship program.
         
-      * Of those employees we have identified for the Mentorship program. the majority already hold a Senior position. So there may be little value to including them             in this program if our goal is to promote them to a role they already have attainted.
+      * Of those employees we have identified for the Mentorship program. The majority hold a Senior position but not all do. This may affect their ability to partake
+        in the program.
      
      * Summary
         
@@ -35,6 +36,15 @@
         * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewelett Hackard employees?
           No there are not enought employees in the pipe line. The number of staff we are anticipating to lose far exceeds what we have in our pipeling
           as demonstrated in our second chart above.
+          
+        * I have created a bin by age group to show the signifcant bubble we have in employees nearing retirement age compared to our next age group.
+          As you can see we have over a two to one ratio of those over 60 compared to those in the 51 to 60 age group. This will put a great deal 
+          of pressure on that 51-60 group as older group retires and takes their knowledge with them.
+          
+          ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Bin%20of%20ages.png)
+          
+          *
+          
         
         
         

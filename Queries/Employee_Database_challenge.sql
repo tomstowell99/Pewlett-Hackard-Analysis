@@ -78,4 +78,55 @@ Where
 order by e.emp_no
 
 
+
+-- additional queries
+-- grouping by age of employees
+ 			  
+-- create table of all current employee with age column
+select e.emp_no, e.birth_date, e.first_name, e.Last_name, e.gender, e.hire_date, title, extract( year from age(birth_date))::int as "age"
+into employees_age
+from employees e			 
+LEFT JOIN titles t
+	ON e.emp_no = t.emp_no	
+where
+	 t.to_date='9999-01-01'
+
+
+
+-- grouping by age of employee
+select title,
+	count (*) filter (where (age<30)) as "Under 30",
+	count (*) filter (where (age>=31 and age <=40)) as "31 to 40",
+	count (*) filter (where (age>=41 and age <=50)) as "41 to 50",
+	count (*) filter (where (age>=51 and age <=60)) as "51 to 60",
+	count (*) filter (where (age> 60)) as "Over 60"
 	
+from employees_age
+group by title
+
+
+-- mentorship by roles
+select title, count(title)
+from mentorship_eligibilty
+group by title
+
+-- total retiring
+SELECT count (*)
+from unique_titles
+
+
+-- which department will be impacted the most.
+
+SELECT count(dep.dept_name), dep.dept_name
+
+from Unique_titles u
+left join dept_emp de
+	ON u.emp_no = de.emp_no
+left Join departments dep
+	ON de.dept_no = dep.dept_no
+where de.to_date = '9999-01-01'
+group by dep.dept_name 
+order by count
+
+
+

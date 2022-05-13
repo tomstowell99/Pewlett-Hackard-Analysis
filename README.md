@@ -21,7 +21,7 @@
      ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Mentorees%20by%20title.png)
      
       * There a not a great deal of employees in the pipeline in comparison to those that are retiring. For example there are 24,926 Senior Staff that will be retiring
-        soon and we have only identified 155 for the mentorship program.
+        soon and we have only identified 155 staff and 569 Senior staff for the mentorship program.
         
       * Of those employees we have identified for the Mentorship program. The majority hold a Senior position but not all do. This may affect their ability to partake
         in the program.
@@ -43,9 +43,9 @@
           
           ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Bin%20of%20ages.png)
           
-          *
+          * Finally we looked at which department would be impacted most by retirements. All areas are importand we feel we should initially focus on development as               this will have the longest lasting impact on our pipeling of product.
           
-        
+            ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Impacted%20departments.png)
         
         
   

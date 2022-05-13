@@ -15,7 +15,7 @@
        
      * From this attrition we will need to train our less experienced Engineers and Staff positions to assume these senior roles in the coming years. 
      
- * Toward the goal of training our future Seniors leaders. We have put together a list of employees eligible for Mentorship into these senior positions.
+ * Toward the goal of training our future Seniors leaders. We have put together a list of employees eligible for the Mentorship program.
    The full list is included as a csv file but a summary by role is shown below.
      
      ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Mentorees%20by%20title.png)
@@ -28,8 +28,13 @@
      * Summary
         
         * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+          Using the query below. We can see that we will need to replace 72,458 workers in the near future.
+          
+        ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Total%20Retiring.png)
         
-        
+        * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewelett Hackard employees?
+          No there are not enought employees in the pipe line. The number of staff we are anticipating to lose far exceeds what we have in our pipeling
+          as demonstrated in our second chart above.
         
         
         

@@ -43,9 +43,12 @@
           
           ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Bin%20of%20ages.png)
           
-          * Finally we looked at which department would be impacted most by retirements. All areas are importand we feel we should initially focus on development as               this will have the longest lasting impact on our pipeling of product.
+          * Finally we looked at which departments would be impacted most by retirements. All areas are important but we feel we should initially focus on development             as this will have the longest lasting impact on our pipeling of product.
           
             ![](https://github.com/tomstowell99/Pewlett-Hackard-Analysis/blob/main/Data/Impacted%20departments.png)
+            
+            
+            We look forward to your follow up questions.
         
         
   
